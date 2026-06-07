@@ -57,10 +57,10 @@ src/
      └── resources/
           └── application.properties
 Notes
-Built mainly for practice and backend understanding
-API responses depend on the external weather provider
-Easy to extend (add caching, frontend, or database later)
-Future improvements
+- Built mainly for practice and backend understanding
+- API responses depend on the external weather provider
+- Easy to extend (add caching, frontend, or database later)
+- Future improvements
 Add Redis caching (reduce API calls)
 Add error handling for invalid cities
 Switch to WebClient instead of RestTemplate
